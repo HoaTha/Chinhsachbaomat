@@ -3,34 +3,14 @@
 <html lang="en-US" prefix="og: http://ogp.me/ns#">
 <head>
     <meta charset="UTF-8">
-    <script type="text/javascript" src="https://gc.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=4qJsEnlvun1v10BYrU9rjyYfAa9X6eONvu7a8S2QXFxp4puLUfY__KLJv-KqSxV1J1zjHVA9U-yDToJ9Y1k_oA" charset="UTF-8"></script>
-    <link rel="stylesheet" crossorigin="anonymous" href="https://gc.kis.v2.scr.kaspersky-labs.com/E3E8934C-235A-4B0E-825A-35A08381A191/abn/main.css?attr=aHR0cHM6Ly93d3cudGhwLmNvbS52bi9jaGluaC1zYWNoLWJhby1tYXQv" />
-    <script>if(navigator.userAgent.match(/MSIE|Internet Explorer/i)||navigator.userAgent.match(/Trident\/7\..*?rv:11/i)){var href=document.location.href;if(!href.match(/[?&]nowprocket/)){if(href.indexOf("?")==-1){if(href.indexOf("#")==-1){document.location.href=href+"?nowprocket=1"}else{document.location.href=href.replace("#","?nowprocket=1#")}}else{if(href.indexOf("#")==-1){document.location.href=href+"&nowprocket=1"}else{document.location.href=href.replace("#","&nowprocket=1#")}}}}</script>
-    <script>class RocketLazyLoadScripts{constructor(){this.triggerEvents=["keydown","mousedown","mousemove","touchmove","touchstart","touchend","wheel"],this.userEventHandler=this._triggerListener.bind(this),this.touchStartHandler=this._onTouchStart.bind(this),this.touchMoveHandler=this._onTouchMove.bind(this),this.touchEndHandler=this._onTouchEnd.bind(this),this.clickHandler=this._onClick.bind(this),this.interceptedClicks=[],window.addEventListener("pageshow",(e=>{this.persisted=e.persisted})),window.addEventListener("DOMContentLoaded",(()=>{this._preconnect3rdParties()})),this.delayedScripts={normal:[],async:[],defer:[]},this.allJQueries=[]}_addUserInteractionListener(e){document.hidden?e._triggerListener():(this.triggerEvents.forEach((t=>window.addEventListener(t,e.userEventHandler,{passive:!0}))),window.addEventListener("touchstart",e.touchStartHandler,{passive:!0}),window.addEventListener("mousedown",e.touchStartHandler),document.addEventListener("visibilitychange",e.userEventHandler))}_removeUserInteractionListener(){this.triggerEvents.forEach((e=>window.removeEventListener(e,this.userEventHandler,{passive:!0}))),document.removeEventListener("visibilitychange",this.userEventHandler)}_onTouchStart(e){"HTML"!==e.target.tagName&&(window.addEventListener("touchend",this.touchEndHandler),window.addEventListener("mouseup",this.touchEndHandler),window.addEventListener("touchmove",this.touchMoveHandler,{passive:!0}),window.addEventListener("mousemove",this.touchMoveHandler),e.target.addEventListener("click",this.clickHandler),this._renameDOMAttribute(e.target,"onclick","rocket-onclick"))}_onTouchMove(e){window.removeEventListener("touchend",this.touchEndHandler),window.removeEventListener("mouseup",this.touchEndHandler),window.removeEventListener("touchmove",this.touchMoveHandler,{passive:!0}),window.removeEventListener("mousemove",this.touchMoveHandler),e.target.removeEventListener("click",this.clickHandler),this._renameDOMAttribute(e.target,"rocket-onclick","onclick")}_onTouchEnd(e){window.removeEventListener("touchend",this.touchEndHandler),window.removeEventListener("mouseup",this.touchEndHandler),window.removeEventListener("touchmove",this.touchMoveHandler,{passive:!0}),window.removeEventListener("mousemove",this.touchMoveHandler)}_onClick(e){e.target.removeEventListener("click",this.clickHandler),this._renameDOMAttribute(e.target,"rocket-onclick","onclick"),this.interceptedClicks.push(e),e.preventDefault(),e.stopPropagation(),e.stopImmediatePropagation()}_replayClicks(){window.removeEventListener("touchstart",this.touchStartHandler,{passive:!0}),window.removeEventListener("mousedown",this.touchStartHandler),this.interceptedClicks.forEach((e=>{e.target.dispatchEvent(new MouseEvent("click",{view:e.view,bubbles:!0,cancelable:!0}))}))}_renameDOMAttribute(e,t,n){e.hasAttribute&&e.hasAttribute(t)&&(event.target.setAttribute(n,event.target.getAttribute(t)),event.target.removeAttribute(t))}_triggerListener(){this._removeUserInteractionListener(this),"loading"===document.readyState?document.addEventListener("DOMContentLoaded",this._loadEverythingNow.bind(this)):this._loadEverythingNow()}_preconnect3rdParties(){let e=[];document.querySelectorAll("script[type=rocketlazyloadscript]").forEach((t=>{if(t.hasAttribute("src")){const n=new URL(t.src).origin;n!==location.origin&&e.push({src:n,crossOrigin:t.crossOrigin||"module"===t.getAttribute("data-rocket-type")})}})),e=[...new Map(e.map((e=>[JSON.stringify(e),e]))).values()],this._batchInjectResourceHints(e,"preconnect")}async _loadEverythingNow(){this.lastBreath=Date.now(),this._delayEventListeners(),this._delayJQueryReady(this),this._handleDocumentWrite(),this._registerAllDelayedScripts(),this._preloadAllScripts(),await this._loadScriptsFromList(this.delayedScripts.normal),await this._loadScriptsFromList(this.delayedScripts.defer),await this._loadScriptsFromList(this.delayedScripts.async);try{await this._triggerDOMContentLoaded(),await this._triggerWindowLoad()}catch(e){}window.dispatchEvent(new Event("rocket-allScriptsLoaded")),this._replayClicks()}_registerAllDelayedScripts(){document.querySelectorAll("script[type=rocketlazyloadscript]").forEach((e=>{e.hasAttribute("src")?e.hasAttribute("async")&&!1!==e.async?this.delayedScripts.async.push(e):e.hasAttribute("defer")&&!1!==e.defer||"module"===e.getAttribute("data-rocket-type")?this.delayedScripts.defer.push(e):this.delayedScripts.normal.push(e):this.delayedScripts.normal.push(e)}))}async _transformScript(e){return await this._littleBreath(),new Promise((t=>{const n=document.createElement("script");[...e.attributes].forEach((e=>{let t=e.nodeName;"type"!==t&&("data-rocket-type"===t&&(t="type"),n.setAttribute(t,e.nodeValue))})),e.hasAttribute("src")?(n.addEventListener("load",t),n.addEventListener("error",t)):(n.text=e.text,t());try{e.parentNode.replaceChild(n,e)}catch(e){t()}}))}async _loadScriptsFromList(e){const t=e.shift();return t?(await this._transformScript(t),this._loadScriptsFromList(e)):Promise.resolve()}_preloadAllScripts(){this._batchInjectResourceHints([...this.delayedScripts.normal,...this.delayedScripts.defer,...this.delayedScripts.async],"preload")}_batchInjectResourceHints(e,t){var n=document.createDocumentFragment();e.forEach((e=>{if(e.src){const i=document.createElement("link");i.href=e.src,i.rel=t,"preconnect"!==t&&(i.as="script"),e.getAttribute&&"module"===e.getAttribute("data-rocket-type")&&(i.crossOrigin=!0),e.crossOrigin&&(i.crossOrigin=e.crossOrigin),n.appendChild(i)}})),document.head.appendChild(n)}_delayEventListeners(){let e={};function t(t,n){!function(t){function n(n){return e[t].eventsToRewrite.indexOf(n)>=0?"rocket-"+n:n}e[t]||(e[t]={originalFunctions:{add:t.addEventListener,remove:t.removeEventListener},eventsToRewrite:[]},t.addEventListener=function(){arguments[0]=n(arguments[0]),e[t].originalFunctions.add.apply(t,arguments)},t.removeEventListener=function(){arguments[0]=n(arguments[0]),e[t].originalFunctions.remove.apply(t,arguments)})}(t),e[t].eventsToRewrite.push(n)}function n(e,t){let n=e[t];Object.defineProperty(e,t,{get:()=>n||function(){},set(i){e["rocket"+t]=n=i}})}t(document,"DOMContentLoaded"),t(window,"DOMContentLoaded"),t(window,"load"),t(window,"pageshow"),t(document,"readystatechange"),n(document,"onreadystatechange"),n(window,"onload"),n(window,"onpageshow")}_delayJQueryReady(e){let t=window.jQuery;Object.defineProperty(window,"jQuery",{get:()=>t,set(n){if(n&&n.fn&&!e.allJQueries.includes(n)){n.fn.ready=n.fn.init.prototype.ready=function(t){e.domReadyFired?t.bind(document)(n):document.addEventListener("rocket-DOMContentLoaded",(()=>t.bind(document)(n)))};const t=n.fn.on;n.fn.on=n.fn.init.prototype.on=function(){if(this[0]===window){function e(e){return e.split(" ").map((e=>"load"===e||0===e.indexOf("load.")?"rocket-jquery-load":e)).join(" ")}"string"==typeof arguments[0]||arguments[0]instanceof String?arguments[0]=e(arguments[0]):"object"==typeof arguments[0]&&Object.keys(arguments[0]).forEach((t=>{delete Object.assign(arguments[0],{[e(t)]:arguments[0][t]})[t]}))}return t.apply(this,arguments),this},e.allJQueries.push(n)}t=n}})}async _triggerDOMContentLoaded(){this.domReadyFired=!0,await this._littleBreath(),document.dispatchEvent(new Event("rocket-DOMContentLoaded")),await this._littleBreath(),window.dispatchEvent(new Event("rocket-DOMContentLoaded")),await this._littleBreath(),document.dispatchEvent(new Event("rocket-readystatechange")),await this._littleBreath(),document.rocketonreadystatechange&&document.rocketonreadystatechange()}async _triggerWindowLoad(){await this._littleBreath(),window.dispatchEvent(new Event("rocket-load")),await this._littleBreath(),window.rocketonload&&window.rocketonload(),await this._littleBreath(),this.allJQueries.forEach((e=>e(window).trigger("rocket-jquery-load"))),await this._littleBreath();const e=new Event("rocket-pageshow");e.persisted=this.persisted,window.dispatchEvent(e),await this._littleBreath(),window.rocketonpageshow&&window.rocketonpageshow({persisted:this.persisted})}_handleDocumentWrite(){const e=new Map;document.write=document.writeln=function(t){const n=document.currentScript,i=document.createRange(),r=n.parentElement;let o=e.get(n);void 0===o&&(o=n.nextSibling,e.set(n,o));const s=document.createDocumentFragment();i.setStart(s,0),s.appendChild(i.createContextualFragment(t)),r.insertBefore(s,o)}}async _littleBreath(){Date.now()-this.lastBreath>45&&(await this._requestAnimFrame(),this.lastBreath=Date.now())}async _requestAnimFrame(){return document.hidden?new Promise((e=>setTimeout(e))):new Promise((e=>requestAnimationFrame(e)))}static run(){const e=new RocketLazyLoadScripts;e._addUserInteractionListener(e)}}RocketLazyLoadScripts.run();</script>
-
-    <!-- Google Tag Manager -->
-
-
-    <script type="rocketlazyloadscript">
-        (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-        new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-        j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-        'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-        })(window,document,'script','dataLayer','GTM-K94SSC');</script>
-
-
 
     <!-- End Google Tag Manager -->
 
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="profile" href="http://gmpg.org/xfn/11">
-    <link rel="pingback" href="https://www.thp.com.vn/xmlrpc.php">
+
     <title>Chính sách bảo mật &amp; điều khoản sử dụng trên website HelloHRM</title>
-    <link rel="preload" as="font" href="https://fonts.gstatic.com/s/opensans/v35/memvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTSCmu1aB.woff2" crossorigin>
-    <link rel="preload" as="font" href="https://fonts.gstatic.com/s/opensans/v35/memvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTSGmu1aB.woff2" crossorigin>
-    <link rel="preload" as="font" href="https://fonts.gstatic.com/s/opensans/v35/memvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTS-muw.woff2" crossorigin>
-    <link rel="preload" as="font" href="https://www.thp.com.vn/wp-content/themes/onepress/assets/fonts/fontawesome-webfont.woff2?v=4.7.0" crossorigin>
-    <style id="wpr-usedcss">
+
+    <style type="text/css">
         .fluid-width-video-wrapper {
             width: 100%;
             position: relative;
@@ -148,15 +128,7 @@
                 cursor: default;
             }
 
-        @font-face {
-            font-display: swap;
-            font-family: 'Open Sans';
-            font-style: normal;
-            font-weight: 300;
-            font-stretch: 100%;
-            src: url(https://fonts.gstatic.com/s/opensans/v35/memvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTSCmu1aB.woff2) format('woff2');
-            unicode-range: U+0102-0103,U+0110-0111,U+0128-0129,U+0168-0169,U+01A0-01A1,U+01AF-01B0,U+0300-0301,U+0303-0304,U+0308-0309,U+0323,U+0329,U+1EA0-1EF9,U+20AB;
-        }
+
 
         @font-face {
             font-display: swap;
@@ -1980,7 +1952,7 @@
             .right-sidebar .content-area {
                 padding-right: 39px;
                 border-right: 1px solid #e9e9e9;
-                width: 64.77477%;
+                /*width: 64.77477%;*/
             }
 
             .right-sidebar .sidebar {
@@ -3147,31 +3119,12 @@
     <meta name='robots' content='max-image-preview:large' />
 
     <!-- This site is optimized with the Yoast SEO plugin v7.6.1 - https://yoast.com/wordpress/plugins/seo/ -->
-    <meta name="description" content="Chính sách bảo mật &amp; điều khoản sử dụng cho bạn biết chúng tôi sử dụng thông tin cá nhân của bạn thu thập được tại trang web này như thế nào." />
-    <link rel="canonical" href="https://www.thp.com.vn/chinh-sach-bao-mat/" />
-    <meta property="og:locale" content="en_US" />
-    <meta property="og:type" content="article" />
-    <meta property="og:title" content="Chính sách bảo mật &amp; điều khoản sử dụng trên website Tân Hiệp Phát" />
-    <meta property="og:description" content="Chính sách bảo mật &amp; điều khoản sử dụng cho bạn biết chúng tôi sử dụng thông tin cá nhân của bạn thu thập được tại trang web này như thế nào." />
-    <meta property="og:url" content="https://www.thp.com.vn/chinh-sach-bao-mat/" />
-    <meta property="og:site_name" content="Tập Đoàn Tân Hiệp Phát" />
-    <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:description" content="Chính sách bảo mật &amp; điều khoản sử dụng cho bạn biết chúng tôi sử dụng thông tin cá nhân của bạn thu thập được tại trang web này như thế nào." />
-    <meta name="twitter:title" content="Chính sách bảo mật &amp; điều khoản sử dụng trên website Tân Hiệp Phát" />
+ 
+   
     <!-- / Yoast SEO plugin. -->
 
-
-
-    <link rel="alternate" type="application/rss+xml" title="Tập Đoàn Tân Hiệp Phát &raquo; Feed" href="https://www.thp.com.vn/feed/" />
-    <link rel="alternate" type="application/rss+xml" title="Tập Đoàn Tân Hiệp Phát &raquo; Comments Feed" href="https://www.thp.com.vn/comments/feed/" />
     <style type="text/css"></style>
-
-
-
-
-
-
-
+    
 
     <style id='onepress-style-inline-css' type='text/css'></style>
     <style id='rocket-lazyload-inline-css' type='text/css'>
@@ -3233,12 +3186,10 @@
     </style>
     <script type='text/javascript' id='jquery-core-js-extra'>
         /* <![CDATA[ */
-        var onepress_js_settings = {"onepress_disable_animation":"","onepress_disable_sticky_header":"","onepress_vertical_align_menu":"","hero_animation":"flipInX","hero_speed":"5000","is_home":"","gallery_enable":""};
+        var onepress_js_settings = { "onepress_disable_animation": "", "onepress_disable_sticky_header": "", "onepress_vertical_align_menu": "", "hero_animation": "flipInX", "hero_speed": "5000", "is_home": "", "gallery_enable": "" };
         /* ]]> */
     </script>
-    <script type="rocketlazyloadscript" data-rocket-type='text/javascript' src='https://www.thp.com.vn/wp-includes/js/jquery/jquery.min.js?ver=3.5.1' id='jquery-core-js' defer></script>
-    <script type="rocketlazyloadscript" data-rocket-type='text/javascript' src='https://www.thp.com.vn/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.3.2' id='jquery-migrate-js' defer></script>
-    <script type="rocketlazyloadscript" data-rocket-type='text/javascript' src='https://www.thp.com.vn/wp-content/themes/onepress/assets/js/morphext.min.js?ver=5.7.8' id='onepress-js-morphext-js' defer></script>
+
     <link rel="https://api.w.org/" href="https://www.thp.com.vn/wp-json/" />
     <link rel="alternate" type="application/json" href="https://www.thp.com.vn/wp-json/wp/v2/pages/1506" />
     <link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://www.thp.com.vn/xmlrpc.php?rsd" />
@@ -3261,16 +3212,7 @@
             }
         </style>
     </noscript>
-    <script type="rocketlazyloadscript">
-        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-        })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
 
-        ga('create', 'UA-76406715-1', 'auto');
-        ga('send', 'pageview');
-
-    </script>
 
 
     <!-- Global site tag (gtag.js) - AdWords: 844203190 -->
@@ -3281,19 +3223,22 @@
 
 </head>
 <body class="page-template-default page page-id-1506 wp-custom-logo group-blog sticky-header">
-    <!-- Google Tag Manager (noscript) -->
-    <noscript>
-        <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-K94SSC"
-                height="0" width="0" style="display:none;visibility:hidden"></iframe>
-    </noscript>
-    <!-- End Google Tag Manager (noscript) -->
+
 
     <div id="page" class="hfeed site">
         <!--	<a class="skip-link screen-reader-text" href="#content">Skip to content</a>-->
         <header id="masthead" class="site-header" role="banner">
             <div class="container">
                 <div class="site-branding">
-                    <div class="site-brand-inner has-logo-img no-desc"><div class="site-logo-div"><a href="https://www.thp.com.vn/" class="custom-logo-link" rel="home"><img width="63" height="65" src="https://apphrm.github.io/Chinhsachbaomat/img/logo.jpg" class="custom-logo" alt="cropped-thp.png" data-lazy-src="https://apphrm.github.io/Chinhsachbaomat/img/logomini.png" /><noscript><img width="63" height="65" src="https://apphrm.github.io/Chinhsachbaomat/img/logo.jpg" class="custom-logo" alt="cropped-thp.png" /></noscript></a></div></div>
+                    <div class="site-brand-inner has-logo-img no-desc">
+                        <div class="site-logo-div">
+                            <a href="https://www.thp.com.vn/" class="custom-logo-link" rel="home">
+                                <img width="63" height="65" src="https://apphrm.github.io/Chinhsachbaomat/img/logo.jpg" class="custom-logo" alt="cropped-thp.png" data-lazy-src="https://apphrm.github.io/Chinhsachbaomat/img/logomini.png" /><noscript>
+                                    <img width="63" height="65" src="https://apphrm.github.io/Chinhsachbaomat/img/logo.jpg" class="custom-logo" alt="cropped-thp.png" />
+                                </noscript>
+                            </a>
+                        </div>
+                    </div>
                 </div>
                 <!-- .site-branding -->
 
@@ -3322,14 +3267,41 @@
                             <div class="entry-content">
                                 <p><strong>CHÍNH SÁCH BẢO MẬT</strong></p>
                                 <p>Chính sách bảo mật cho bạn biết chúng tôi sử dụng thông tin cá nhân của bạn thu thập được tại trang web này như thế nào. Xin vui lòng đọc chính sách bảo mật trước khi sử dụng trang web hoặc gửi bất kỳ thông tin cá nhân nào.</p>
-                                <p>Khi sử dụng trang web, bạn đang chấp nhận những điều được mô tả trong chính sách bảo mật. Những điều này có thể thay đổi, nhưng bất kỳ thay đổi nào cũng đều sẽ được đăng lên và thay đổi sẽ chỉ áp dụng cho các hoạt động và thông tin trên cơ sở tịnh tiến, chứ không phải hồi tố. Bạn nên xem lại chính sách bảo mật bất cứ khi nào bạn truy cập trang web để đảm bảo rằng mình hiểu các thông tin cá nhân mà bạn cung cấp sẽ được sử dụng như thế nào. Chính sách của chúng tôi là giữ kín thông tin cá nhân nhận được từ trang web hoàn toàn bí mật và chỉ dùng cho mục đích nội bộ. Chúng tôi sẽ không chia sẻ thông tin cá nhân của bạn với bất kỳ bên nào khác. Hãy yên tâm rằng chúng tôi tôn trọng sự riêng tư của bạn và xử lý dữ liệu cá nhân của bạn với sự cẩn trọng tối đa.</p>
+                                <p>
+                                    Khi sử dụng trang web, bạn đang chấp nhận những điều được mô tả trong chính sách bảo mật.
+                                    Những điều này có thể thay đổi, nhưng bất kỳ thay đổi nào cũng đều sẽ được đăng lên và thay đổi sẽ chỉ áp dụng cho các hoạt động và thông tin trên cơ sở tịnh tiến, chứ không phải hồi tố.
+                                    Bạn nên xem lại chính sách bảo mật bất cứ khi nào bạn truy cập trang web để đảm bảo rằng mình hiểu các thông tin cá nhân mà bạn cung cấp sẽ được sử dụng như thế nào.
+                                    Chính sách của chúng tôi là giữ kín thông tin cá nhân nhận được từ trang web hoàn toàn bí mật và chỉ dùng cho mục đích nội bộ.
+                                    Chúng tôi sẽ không chia sẻ thông tin cá nhân của bạn với bất kỳ bên nào khác. Hãy yên tâm rằng chúng tôi tôn trọng sự riêng tư của bạn và xử lý dữ liệu cá nhân của bạn với sự cẩn trọng tối đa.
+                                </p>
                                 <p><strong>THU THẬP THÔNG TIN CÁ NHÂN CỦA BẠN</strong></p>
-                                <p>Chúng tôi thu thập các thông tin định danh cá nhân như tên, địa chỉ bưu điện, địa chỉ email, số điện thoại, v.v&#8230; khi khách truy cập tự nguyện gửi cho chúng tôi. Thông tin này chỉ được sử dụng để đáp ứng yêu cầu cụ thể của bạn, trừ khi bạn cho phép sử dụng nó theo cách khác, ví dụ thêm bạn vào danh sách gửi email của chúng tôi. Thông tin chúng tôi thu thập có thể bao gồm tên, chức danh, tên công ty hay tổ chức, e-mail, điện thoại và ngày sinh nhật của bạn. Chúng tôi có thể thu thập một số thông tin nhất định về chuyến thăm của bạn, chẳng hạn như loại trình duyệt bạn sử dụng; ngày và thời gian bạn truy cập vào trang web; các trang bạn truy cập khi mở trang web và địa chỉ trang web mà từ đó bạn kết nối trực tiếp đến trang web của chúng tôi. Thông tin này được sử dụng để giúp cải thiện và quản lý trang web.</p>
+                                <p>
+                                    Chúng tôi thu thập các thông tin định danh cá nhân như tên, địa chỉ bưu điện, địa chỉ email, số điện thoại, v.v&#8230; khi khách truy cập tự nguyện gửi cho chúng tôi.
+                                    Thông tin này chỉ được sử dụng để đáp ứng yêu cầu cụ thể của bạn, trừ khi bạn cho phép sử dụng nó theo cách khác, ví dụ thêm bạn vào danh sách gửi email của chúng tôi.
+                                    Thông tin chúng tôi thu thập có thể bao gồm tên, chức danh, tên công ty hay tổ chức, e-mail, điện thoại và ngày sinh nhật của bạn.
+                                    Chúng tôi có thể thu thập một số thông tin nhất định về chuyến thăm của bạn, chẳng hạn như loại trình duyệt bạn sử dụng;
+                                    ngày và thời gian bạn truy cập vào trang web;
+                                    các trang bạn truy cập khi mở trang web và địa chỉ trang web mà từ đó bạn kết nối trực tiếp đến trang web của chúng tôi. Thông tin này được sử dụng để giúp cải thiện và quản lý trang web.
+                                </p>
                                 <p><strong>COOKIE / CÔNG NGHỆ THEO DÕI</strong></p>
-                                <p>Trang web có thể sử dụng cookie và công nghệ theo dõi tùy thuộc vào các tính năng được cung cấp. Cookie và công nghệ theo dõi rất hữu ích cho việc thu thập thông tin như loại trình duyệt và hệ điều hành, theo dõi số lượng khách truy cập vào trang web, và hiểu biết khách truy cập sử dụng trang web như thế nào. Cookie cũng có thể giúp tùy chỉnh trang web cho khách. Không thể thu thập được thông tin cá nhân thông qua cookie và công nghệ theo dõi khác, tuy nhiên, nếu trước đó bạn đã cung cấp thông tin cá nhân định danh, cookie có thể gắn với các thông tin đó. Cookie và thông tin theo dõi thu thập được có thể được chia sẻ với bên thứ ba. Chúng tôi cũng sử dụng mã tái tiếp thị đăng nhập khi khách truy cập xem các trang cụ thể, cho phép chúng tôi đưa ra các quảng cáo mục tiêu trong tương lai.</p>
+                                <p>
+                                    Trang web có thể sử dụng cookie và công nghệ theo dõi tùy thuộc vào các tính năng được cung cấp.
+                                    Cookie và công nghệ theo dõi rất hữu ích cho việc thu thập thông tin như loại trình duyệt và hệ điều hành, theo dõi số lượng khách truy cập vào trang web, và hiểu biết khách truy cập sử dụng trang web như thế nào.
+                                    Cookie cũng có thể giúp tùy chỉnh trang web cho khách.
+                                    Không thể thu thập được thông tin cá nhân thông qua cookie và công nghệ theo dõi khác, tuy nhiên, nếu trước đó bạn đã cung cấp thông tin cá nhân định danh, cookie có thể gắn với các thông tin đó.
+                                    Cookie và thông tin theo dõi thu thập được có thể được chia sẻ với bên thứ ba. Chúng tôi cũng sử dụng mã tái tiếp thị đăng nhập khi khách truy cập xem các trang cụ thể, cho phép chúng tôi đưa ra các quảng cáo mục tiêu trong tương lai.
+                                </p>
                                 <p><strong>PHÂN PHỐI THÔNG TIN</strong></p>
-                                <p>Chúng tôi xử lý tất cả dữ liệu khách hàng phù hợp với Pháp lệnh dữ liệu cá nhân (Riêng tư) ở Việt Nam. Chúng tôi sẽ không bao giờ bán, chia sẻ hoặc sử dụng bất kỳ thông tin cá nhân nào bạn cung cấp cho chúng tôi vì bất kỳ mục đích nào khác hơn là trao đổi với bạn về các sản phẩm, việc đặt chỗ hoặc thư mời đến các sự kiện của chúng tôi. Chúng tôi có thể chia sẻ thông tin với các cơ quan chính phủ hoặc các công ty khác hỗ trợ chúng tôi trong việc phòng chống gian lận hoặc điều tra.</p>
-                                <p><strong>Chúng tôi có thể làm như vậy khi:</strong> (1) được pháp luật cho phép hoặc theo yêu cầu của pháp luật; (2) cố gắng để bảo vệ hoặc ngăn chặn gian lận thực tế hoặc tiềm năng hoặc giao dịch trái phép; (3) điều tra gian lận đó đã xảy ra. Các thông tin không được cung cấp cho các công ty này vì mục đích tiếp thị.</p>
+                                <p>
+                                    Chúng tôi xử lý tất cả dữ liệu khách hàng phù hợp với Pháp lệnh dữ liệu cá nhân (Riêng tư) ở Việt Nam.
+                                    Chúng tôi sẽ không bao giờ bán, chia sẻ hoặc sử dụng bất kỳ thông tin cá nhân nào bạn cung cấp cho chúng tôi vì bất kỳ mục đích nào khác hơn là trao đổi với bạn về các sản phẩm, việc đặt chỗ hoặc thư mời đến các sự kiện của chúng tôi.
+                                    Chúng tôi có thể chia sẻ thông tin với các cơ quan chính phủ hoặc các công ty khác hỗ trợ chúng tôi trong việc phòng chống gian lận hoặc điều tra.
+                                </p>
+                                <p>
+                                    <strong>Chúng tôi có thể làm như vậy khi:</strong> (1) được pháp luật cho phép hoặc theo yêu cầu của pháp luật;
+                                    (2) cố gắng để bảo vệ hoặc ngăn chặn gian lận thực tế hoặc tiềm năng hoặc giao dịch trái phép;
+                                    (3) điều tra gian lận đó đã xảy ra. Các thông tin không được cung cấp cho các công ty này vì mục đích tiếp thị.
+                                </p>
                                 <p>Thông tin cá nhân của bạn được lưu giữ an toàn. Chỉ các nhân viên, các đại lý và nhà thầu được ủy quyền (người đã đồng ý giữ thông tin an toàn và bảo mật) có quyền tiếp cận các thông tin này. Tất cả email và bản tin từ trang web này cho phép bạn chọn không tiếp tục nhận thư.</p>
                                 <p><strong>CÂU HỎI</strong></p>
                                 <p>Nếu bạn có bất kỳ câu hỏi, mối quan tâm, hoặc ý kiến gì về chính sách bảo mật của chúng tôi, xin vui lòng liên hệ với chúng tôi qua form Liên hệ với chúng tôi.</p>
@@ -3357,7 +3329,12 @@
                 <div class="container">
                     <div class="row">
                         <div class="col-sm-3">
-                            <a href=""><img src="data:image/svg+xml,%3Csvg%20xmlns='https://apphrm.github.io/Chinhsachbaomat/img/logo.jpg" data-lazy-src="https://apphrm.github.io/Chinhsachbaomat/img/logo.jpg" /><noscript><img src="https://www.thp.com.vn/wp-content/uploads/2017/01/thp.png" /></noscript></a>
+                            <a href="">
+                                <img src="data:image/svg+xml,%3Csvg%20xmlns='https://apphrm.github.io/Chinhsachbaomat/img/logo.jpg" data-lazy-src="https://apphrm.github.io/Chinhsachbaomat/img/logo.jpg" />
+                                <noscript>
+                                    <img src="https://www.thp.com.vn/wp-content/uploads/2017/01/thp.png" />
+                                </noscript>
+                            </a>
 
                         </div>
                         <div class="col-sm-5">
@@ -3370,7 +3347,13 @@
                             </div>
                             <div class="social-wapper">
                                 <div class="footer-social">
-                                    <h5 class="follow-heading">LIÊN KẾT VỚI CHÚNG TÔI</h5><div class="footer-social-icons"><a target="_blank" href="https://www.facebook.com/appphrm/" title="Facebook"><i class="fa fa-facebook"></i></a><a target="_blank" href="https://www.youtube.com/channel/UCsCsIomK3MwNicA4X4f66pg" title="Youtube"><i class="fa fa-youtube"></i></a></div>
+                                    <h5 class="follow-heading">LIÊN KẾT VỚI CHÚNG TÔI</h5>
+                                    <div class="footer-social-icons">
+                                        <a target="_blank" href="https://www.facebook.com/appphrm/" title="Facebook"><i class="fa fa-facebook"></i></a>
+                                        <a target="_blank" href="https://www.youtube.com/channel/UCsCsIomK3MwNicA4X4f66pg" title="Youtube">
+                                            <i class="fa fa-youtube"></i>
+                                        </a>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -3405,36 +3388,50 @@
     </div><!-- #page -->
 
 
-    <script type='text/javascript' id='contact-form-7-js-extra'>
-        /* <![CDATA[ */
-        var wpcf7 = {"apiSettings":{"root":"https:\/\/www.thp.com.vn\/wp-json\/contact-form-7\/v1","namespace":"contact-form-7\/v1"},"recaptcha":{"messages":{"empty":"Please verify that you are not a robot."}},"cached":"1"};
-        /* ]]> */
-    </script>
-    <script type="rocketlazyloadscript" data-minify="1" data-rocket-type='text/javascript' src='https://www.thp.com.vn/wp-content/cache/min/1/wp-content/plugins/contact-form-7/includes/js/scripts.js?ver=1681313468' id='contact-form-7-js' defer></script>
-    <script type="rocketlazyloadscript" data-rocket-type='text/javascript' id='rocket-browser-checker-js-after'>
-        "use strict";var _createClass=function(){function defineProperties(target,props){for(var i=0;i<props.length;i++){var descriptor=props[i];descriptor.enumerable=descriptor.enumerable||!1,descriptor.configurable=!0,"value"in descriptor&&(descriptor.writable=!0),Object.defineProperty(target,descriptor.key,descriptor)}}return function(Constructor,protoProps,staticProps){return protoProps&&defineProperties(Constructor.prototype,protoProps),staticProps&&defineProperties(Constructor,staticProps),Constructor}}();function _classCallCheck(instance,Constructor){if(!(instance instanceof Constructor))throw new TypeError("Cannot call a class as a function")}var RocketBrowserCompatibilityChecker=function(){function RocketBrowserCompatibilityChecker(options){_classCallCheck(this,RocketBrowserCompatibilityChecker),this.passiveSupported=!1,this._checkPassiveOption(this),this.options=!!this.passiveSupported&&options}return _createClass(RocketBrowserCompatibilityChecker,[{key:"_checkPassiveOption",value:function(self){try{var options={get passive(){return!(self.passiveSupported=!0)}};window.addEventListener("test",null,options),window.removeEventListener("test",null,options)}catch(err){self.passiveSupported=!1}}},{key:"initRequestIdleCallback",value:function(){!1 in window&&(window.requestIdleCallback=function(cb){var start=Date.now();return setTimeout(function(){cb({didTimeout:!1,timeRemaining:function(){return Math.max(0,50-(Date.now()-start))}})},1)}),!1 in window&&(window.cancelIdleCallback=function(id){return clearTimeout(id)})}},{key:"isDataSaverModeOn",value:function(){return"connection"in navigator&&!0===navigator.connection.saveData}},{key:"supportsLinkPrefetch",value:function(){var elem=document.createElement("link");return elem.relList&&elem.relList.supports&&elem.relList.supports("prefetch")&&window.IntersectionObserver&&"isIntersecting"in IntersectionObserverEntry.prototype}},{key:"isSlowConnection",value:function(){return"connection"in navigator&&"effectiveType"in navigator.connection&&("2g"===navigator.connection.effectiveType||"slow-2g"===navigator.connection.effectiveType)}}]),RocketBrowserCompatibilityChecker}();
-    </script>
-    <script type='text/javascript' id='rocket-preload-links-js-extra'>
-        /* <![CDATA[ */
-        var RocketPreloadLinksConfig = {"excludeUris":"\/(?:.+\/)?feed(?:\/(?:.+\/?)?)?$|\/(?:.+\/)?embed\/|\/(index\\.php\/)?wp\\-json(\/.*|$)|\/refer\/|\/go\/|\/recommend\/|\/recommends\/","usesTrailingSlash":"1","imageExt":"jpg|jpeg|gif|png|tiff|bmp|webp|avif|pdf|doc|docx|xls|xlsx|php","fileExt":"jpg|jpeg|gif|png|tiff|bmp|webp|avif|pdf|doc|docx|xls|xlsx|php|html|htm","siteUrl":"https:\/\/www.thp.com.vn","onHoverDelay":"100","rateThrottle":"3"};
-        /* ]]> */
-    </script>
-    <script type="rocketlazyloadscript" data-rocket-type='text/javascript' id='rocket-preload-links-js-after'>
-        (function() {
-        "use strict";var r="function"==typeof Symbol&&"symbol"==typeof Symbol.iterator?function(e){return typeof e}:function(e){return e&&"function"==typeof Symbol&&e.constructor===Symbol&&e!==Symbol.prototype?"symbol":typeof e},e=function(){function i(e,t){for(var n=0;n<t.length;n++){var i=t[n];i.enumerable=i.enumerable||!1,i.configurable=!0,"value"in i&&(i.writable=!0),Object.defineProperty(e,i.key,i)}}return function(e,t,n){return t&&i(e.prototype,t),n&&i(e,n),e}}();function i(e,t){if(!(e instanceof t))throw new TypeError("Cannot call a class as a function")}var t=function(){function n(e,t){i(this,n),this.browser=e,this.config=t,this.options=this.browser.options,this.prefetched=new Set,this.eventTime=null,this.threshold=1111,this.numOnHover=0}return e(n,[{key:"init",value:function(){!this.browser.supportsLinkPrefetch()||this.browser.isDataSaverModeOn()||this.browser.isSlowConnection()||(this.regex={excludeUris:RegExp(this.config.excludeUris,"i"),images:RegExp(".("+this.config.imageExt+")$","i"),fileExt:RegExp(".("+this.config.fileExt+")$","i")},this._initListeners(this))}},{key:"_initListeners",value:function(e){-1<this.config.onHoverDelay&&document.addEventListener("mouseover",e.listener.bind(e),e.listenerOptions),document.addEventListener("mousedown",e.listener.bind(e),e.listenerOptions),document.addEventListener("touchstart",e.listener.bind(e),e.listenerOptions)}},{key:"listener",value:function(e){var t=e.target.closest("a"),n=this._prepareUrl(t);if(null!==n)switch(e.type){case"mousedown":case"touchstart":this._addPrefetchLink(n);break;case"mouseover":this._earlyPrefetch(t,n,"mouseout")}}},{key:"_earlyPrefetch",value:function(t,e,n){var i=this,r=setTimeout(function(){if(r=null,0===i.numOnHover)setTimeout(function(){return i.numOnHover=0},1e3);else if(i.numOnHover>i.config.rateThrottle)return;i.numOnHover++,i._addPrefetchLink(e)},this.config.onHoverDelay);t.addEventListener(n,function e(){t.removeEventListener(n,e,{passive:!0}),null!==r&&(clearTimeout(r),r=null)},{passive:!0})}},{key:"_addPrefetchLink",value:function(i){return this.prefetched.add(i.href),new Promise(function(e,t){var n=document.createElement("link");n.rel="prefetch",n.href=i.href,n.onload=e,n.onerror=t,document.head.appendChild(n)}).catch(function(){})}},{key:"_prepareUrl",value:function(e){if(null===e||"object"!==(void 0===e?"undefined":r(e))||!1 in e||-1===["http:","https:"].indexOf(e.protocol))return null;var t=e.href.substring(0,this.config.siteUrl.length),n=this._getPathname(e.href,t),i={original:e.href,protocol:e.protocol,origin:t,pathname:n,href:t+n};return this._isLinkOk(i)?i:null}},{key:"_getPathname",value:function(e,t){var n=t?e.substring(this.config.siteUrl.length):e;return n.startsWith("/")||(n="/"+n),this._shouldAddTrailingSlash(n)?n+"/":n}},{key:"_shouldAddTrailingSlash",value:function(e){return this.config.usesTrailingSlash&&!e.endsWith("/")&&!this.regex.fileExt.test(e)}},{key:"_isLinkOk",value:function(e){return null!==e&&"object"===(void 0===e?"undefined":r(e))&&(!this.prefetched.has(e.href)&&e.origin===this.config.siteUrl&&-1===e.href.indexOf("?")&&-1===e.href.indexOf("#")&&!this.regex.excludeUris.test(e.href)&&!this.regex.images.test(e.href))}}],[{key:"run",value:function(){"undefined"!=typeof RocketPreloadLinksConfig&&new n(new RocketBrowserCompatibilityChecker({capture:!0,passive:!0}),RocketPreloadLinksConfig).init()}}]),n}();t.run();
-        }());
-    </script>
-    <script type="rocketlazyloadscript" data-minify="1" data-rocket-type='text/javascript' src='https://www.thp.com.vn/wp-content/cache/min/1/wp-content/themes/onepress/assets/js/plugins.js?ver=1681313468' id='onepress-js-plugins-js' defer></script>
-    <script type="rocketlazyloadscript" data-rocket-type='text/javascript' src='https://www.thp.com.vn/wp-content/themes/onepress/assets/js/bootstrap.min.js?ver=1.3.0' id='onepress-js-bootstrap-js' defer></script>
-    <script type="rocketlazyloadscript" data-minify="1" data-rocket-type='text/javascript' src='https://www.thp.com.vn/wp-content/cache/min/1/wp-content/themes/onepress/assets/js/theme.js?ver=1681313468' id='onepress-theme-js' defer></script>
-    <script type='text/javascript' src='https://www.thp.com.vn/wp-includes/js/wp-embed.min.js?ver=5.7.8' id='wp-embed-js' defer></script>
     <script>
-        window.lazyLoadOptions=[{elements_selector:"img[data-lazy-src],.rocket-lazyload,iframe[data-lazy-src]",data_src:"lazy-src",data_srcset:"lazy-srcset",data_sizes:"lazy-sizes",class_loading:"lazyloading",class_loaded:"lazyloaded",threshold:300,callback_loaded:function(element){if(element.tagName==="IFRAME"&&element.dataset.rocketLazyload=="fitvidscompatible"){if(element.classList.contains("lazyloaded")){if(typeof window.jQuery!="undefined"){if(jQuery.fn.fitVids){jQuery(element).parent().fitVids()}}}}}},{elements_selector:".rocket-lazyload",data_src:"lazy-src",data_srcset:"lazy-srcset",data_sizes:"lazy-sizes",class_loading:"lazyloading",class_loaded:"lazyloaded",threshold:300,}];window.addEventListener('LazyLoad::Initialized',function(e){var lazyLoadInstance=e.detail.instance;if(window.MutationObserver){var observer=new MutationObserver(function(mutations){var image_count=0;var iframe_count=0;var rocketlazy_count=0;mutations.forEach(function(mutation){for(var i=0;i<mutation.addedNodes.length;i++){if(typeof mutation.addedNodes[i].getElementsByTagName!=='function'){continue}
-            if(typeof mutation.addedNodes[i].getElementsByClassName!=='function'){continue}
-            images=mutation.addedNodes[i].getElementsByTagName('img');is_image=mutation.addedNodes[i].tagName=="IMG";iframes=mutation.addedNodes[i].getElementsByTagName('iframe');is_iframe=mutation.addedNodes[i].tagName=="IFRAME";rocket_lazy=mutation.addedNodes[i].getElementsByClassName('rocket-lazyload');image_count+=images.length;iframe_count+=iframes.length;rocketlazy_count+=rocket_lazy.length;if(is_image){image_count+=1}
-            if(is_iframe){iframe_count+=1}}});if(image_count>0||iframe_count>0||rocketlazy_count>0){lazyLoadInstance.update()}});var b=document.getElementsByTagName("body")[0];var config={childList:!0,subtree:!0};observer.observe(b,config)}},!1)</script>
+        window.lazyLoadOptions = [{
+            elements_selector: "img[data-lazy-src],.rocket-lazyload,iframe[data-lazy-src]", data_src: "lazy-src", data_srcset: "lazy-srcset", data_sizes: "lazy-sizes", class_loading: "lazyloading", class_loaded: "lazyloaded", threshold: 300, callback_loaded: function (element) {
+                if (element.tagName === "IFRAME" && element.dataset.rocketLazyload == "fitvidscompatible") { if (element.classList.contains("lazyloaded")) { if (typeof window.jQuery != "undefined") { if (jQuery.fn.fitVids) { jQuery(element).parent().fitVids() } } } }
+            }
+        }, { elements_selector: ".rocket-lazyload", data_src: "lazy-src", data_srcset: "lazy-srcset", data_sizes: "lazy-sizes", class_loading: "lazyloading", class_loaded: "lazyloaded", threshold: 300, }]; window.addEventListener('LazyLoad::Initialized', function (e) {
+            var lazyLoadInstance = e.detail.instance; if (window.MutationObserver) {
+                var observer = new MutationObserver(function (mutations) {
+                    var image_count = 0; var iframe_count = 0; var rocketlazy_count = 0; mutations.forEach(function (mutation) {
+                        for (var i = 0; i < mutation.addedNodes.length; i++) {
+                            if (typeof mutation.addedNodes[i].getElementsByTagName !== 'function') { continue }
+                            if (typeof mutation.addedNodes[i].getElementsByClassName !== 'function') { continue }
+                            images = mutation.addedNodes[i].getElementsByTagName('img');
+                            is_image = mutation.addedNodes[i].tagName == "IMG"; iframes = mutation.addedNodes[i].getElementsByTagName('iframe');
+                            is_iframe = mutation.addedNodes[i].tagName == "IFRAME"; rocket_lazy = mutation.addedNodes[i].getElementsByClassName('rocket-lazyload'); image_count += images.length;
+                            iframe_count += iframes.length; rocketlazy_count += rocket_lazy.length; if (is_image) { image_count += 1 }
+                            if (is_iframe) { iframe_count += 1 }
+                        }
+                    }); if (image_count > 0 || iframe_count > 0 || rocketlazy_count > 0) { lazyLoadInstance.update() }
+                }); var b = document.getElementsByTagName("body")[0]; var config = { childList: !0, subtree: !0 }; observer.observe(b, config)
+            }
+        }, !1)
+    </script>
+
+
     <script data-no-minify="1" async src="https://www.thp.com.vn/wp-content/plugins/wp-rocket/assets/js/lazyload/17.5/lazyload.min.js"></script>
-    <script>function lazyLoadThumb(e){var t='<img data-lazy-src="https://i.ytimg.com/vi/ID/hqdefault.jpg" alt="" width="480" height="360"><noscript><img src="https://i.ytimg.com/vi/ID/hqdefault.jpg" alt="" width="480" height="360"></noscript>',a='<button class="play" aria-label="play Youtube video"></button>';return t.replace("ID",e)+a}function lazyLoadYoutubeIframe(){var e=document.createElement("iframe"),t="ID?autoplay=1";t+=0===this.parentNode.dataset.query.length?'':'&'+this.parentNode.dataset.query;e.setAttribute("src",t.replace("ID",this.parentNode.dataset.src)),e.setAttribute("frameborder","0"),e.setAttribute("allowfullscreen","1"),e.setAttribute("allow", "accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"),this.parentNode.parentNode.replaceChild(e,this.parentNode)}document.addEventListener("DOMContentLoaded",function(){var e,t,p,a=document.getElementsByClassName("rll-youtube-player");for(t=0;t<a.length;t++)e=document.createElement("div"),e.setAttribute("data-id",a[t].dataset.id),e.setAttribute("data-query", a[t].dataset.query),e.setAttribute("data-src", a[t].dataset.src),e.innerHTML=lazyLoadThumb(a[t].dataset.id),a[t].appendChild(e),p=e.querySelector('.play'),p.onclick=lazyLoadYoutubeIframe});</script>
+    <script>
+        function lazyLoadThumb(e) {
+            var t = '<img data-lazy-src="https://i.ytimg.com/vi/ID/hqdefault.jpg" alt="" width="480" height="360"><noscript><img src="https://i.ytimg.com/vi/ID/hqdefault.jpg" alt="" width="480" height="360"></noscript>',
+                a = '<button class="play" aria-label="play Youtube video"></button>'; return t.replace("ID", e) + a
+        } function lazyLoadYoutubeIframe() {
+            var e = document.createElement("iframe"), t = "ID?autoplay=1";
+            t += 0 === this.parentNode.dataset.query.length ? '' : '&' + this.parentNode.dataset.query;
+            e.setAttribute("src", t.replace("ID", this.parentNode.dataset.src)), e.setAttribute("frameborder", "0"),
+            e.setAttribute("allowfullscreen", "1"), e.setAttribute("allow", "accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"),
+            this.parentNode.parentNode.replaceChild(e, this.parentNode)
+        } document.addEventListener("DOMContentLoaded", function () {
+            var e, t, p, a = document.getElementsByClassName("rll-youtube-player");
+            for (t = 0; t < a.length; t++) e = document.createElement("div"), e.setAttribute("data-id", a[t].dataset.id),
+                e.setAttribute("data-query", a[t].dataset.query), e.setAttribute("data-src", a[t].dataset.src),
+                e.innerHTML = lazyLoadThumb(a[t].dataset.id), a[t].appendChild(e), p = e.querySelector('.play'),
+                p.onclick = lazyLoadYoutubeIframe
+        });
+    </script>
 
     <script type=”text/javascript” src=”http://l2.io/ip.js?var =myip”></script>
 </body>
